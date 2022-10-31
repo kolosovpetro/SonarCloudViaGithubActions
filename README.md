@@ -1,10 +1,6 @@
-# SonarQube via GitHub Actions
+# SonarCloud via GitHub Actions
 
-Explains how to integrate sonar qube with GitHub actions.
-
-<p align="center">
-  <img src="img/readme_logo_example.png" alt="logo_example"/>
-</p>
+Explains how to integrate SonarCloud with GitHub actions in a simple and quick approach.
 
 ## Build and run in Intellij IDEA
 
@@ -14,7 +10,7 @@ Explains how to integrate sonar qube with GitHub actions.
 - Install `Intellij IDEA Ultimate`: https://www.jetbrains.com/idea/download/#section=windows
 - Activate `Intellij IDEA Ultimate`
 - Install `TeXiFy IDEA` plugin: https://plugins.jetbrains.com/plugin/9473-texify-idea
-- Clone this repository locally: `https://github.com/kolosovpetro/SonarQubeViaGithubActions.git`
+- Clone this repository locally: `https://github.com/kolosovpetro/SonarCloudViaGithubActions.git`
 - Open `github-latex-template` folder in `Intellij IDEA Ultimate` and configure as follows
     - LaTeX Configuration
       ![LaTeX Configuration](img/latex_configuration.PNG?raw=true "LaTeX Configuration")
@@ -27,11 +23,9 @@ Explains how to integrate sonar qube with GitHub actions.
 
 Set repository secrets
 
-- `GH_ACCESS_TOKEN`: Generate Github Personal access token at
+- `GH_ACCESS_TOKEN`: Generate GitHub Personal access token at
   `Settings -> Developer Settings -> Personal access tokens -> Generate mew token` and assign in to
   secret `GH_ACCESS_TOKEN`
-- `GH_NAME`: Your Github username
-- `GH_EMAIL`: Your Github email
 
 ## Actions and their trigger policy
 
