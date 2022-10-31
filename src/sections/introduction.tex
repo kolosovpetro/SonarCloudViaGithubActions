@@ -65,7 +65,7 @@ on the GitHub as an action of our repository.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{img/09_pipeline_example}
-    ~\caption{SonarQube analyzer pipeline example.}\label{fig:figure9}
+    ~\caption{SonarCloud analyzer pipeline example.}\label{fig:figure9}
 \end{figure}
 Above pipeline runs on the \texttt{Windows} runner, but I prefer ubuntu runner for the reasons of performance
 so that I change it following way
@@ -89,4 +89,9 @@ we got a report as follows
     \includegraphics[width=1\textwidth]{img/12_main_branch_analyze}
     ~\caption{Main branch analysis.}\label{fig:figure12}
 \end{figure}
-Therefore, we have successfully established an integration between SonarQube static code analyzer and GitHub repository.
+Therefore, we have successfully established an integration between SonarCloud static code analyzer and GitHub repository.
+
+\begin{itemize}
+    \item \href{https://github.com/kolosovpetro/IoC-Container/blob/master/.github/workflows/run-sonarqube-analysis.yml}{\texttt{Workflow source}}
+    \item \href{https://sonarcloud.io/project/overview?id=IoC-Container}{\texttt{SonarCloud dashboard}}
+\end{itemize}

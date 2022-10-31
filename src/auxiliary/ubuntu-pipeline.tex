@@ -1,5 +1,5 @@
 \begin{spverbatim}
-name: Run SonarQube analysis
+name: Run SonarCloud analysis
 on:
   push:
     branches: [ develop ]
@@ -7,8 +7,8 @@ on:
     types: [ opened, synchronize, reopened ]
   workflow_dispatch:
 jobs:
-  run-sonarqube-analysis:
-    name: Run SonarQube Analysis
+  run-sonarcloud-analysis:
+    name: Run SonarCloud Analysis
     runs-on: ubuntu-latest
     steps:
       - name: Set up JDK 11
